@@ -1,0 +1,55 @@
+/* Empty. Add your own CSS if you like */
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.luisito {
+  background-color: #71B4E3 !important;
+}
+
+.brand {
+  height: 30px;
+  margin-top: 5px;
+}
+
+.box {
+  padding: 5%;
+  background-color: white;
+}
+
+.icon {
+  padding: 5em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  color: #3F434E;
+  padding-top: 5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.subheader {
+  color: #656971;
+  padding-top: 5%;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+}
+
+
+.border{
+  background-color: pink
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .subheader {
+        text-align: left;
+        
+    }        
+}
