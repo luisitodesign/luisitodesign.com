@@ -1,0 +1,59 @@
+[debug] [2019-11-27T21:06:01.284Z] ----------------------------------------------------------------------
+[debug] [2019-11-27T21:06:01.285Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting:luisitodesign.com
+[debug] [2019-11-27T21:06:01.286Z] CLI Version:   7.8.1
+[debug] [2019-11-27T21:06:01.286Z] Platform:      darwin
+[debug] [2019-11-27T21:06:01.286Z] Node Version:  v10.15.3
+[debug] [2019-11-27T21:06:01.286Z] Time:          Wed Nov 27 2019 16:06:01 GMT-0500 (Eastern Standard Time)
+[debug] [2019-11-27T21:06:01.286Z] ----------------------------------------------------------------------
+[debug] [2019-11-27T21:06:01.286Z] 
+[debug] [2019-11-27T21:06:01.293Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-27T21:06:01.293Z] > authorizing via signed-in user
+[debug] [2019-11-27T21:06:01.293Z] [iam] checking project luisito-3c484 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-11-27T21:06:01.294Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/luisito-3c484:testIamPermissions  
+
+[debug] [2019-11-27T21:06:01.501Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-27T21:06:01.502Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/luisito-3c484  
+ 
+[debug] [2019-11-27T21:06:01.753Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'luisito-3c484'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/luisito-3c484/overview
+[debug] [2019-11-27T21:06:01.862Z] TypeError: Cannot read property 'deploys' of undefined
+    at /usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:84:36
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-12-13T14:23:35.508Z] ----------------------------------------------------------------------
+[debug] [2019-12-13T14:23:35.509Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-12-13T14:23:35.509Z] CLI Version:   7.8.1
+[debug] [2019-12-13T14:23:35.510Z] Platform:      darwin
+[debug] [2019-12-13T14:23:35.510Z] Node Version:  v10.15.3
+[debug] [2019-12-13T14:23:35.512Z] Time:          Fri Dec 13 2019 09:23:35 GMT-0500 (Eastern Standard Time)
+[debug] [2019-12-13T14:23:35.512Z] ----------------------------------------------------------------------
+[debug] [2019-12-13T14:23:35.513Z] 
+[debug] [2019-12-13T14:23:35.522Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-13T14:23:35.522Z] > authorizing via signed-in user
+[debug] [2019-12-13T14:23:35.522Z] [iam] checking project luisito-3c484 for permissions ["firebase.projects.get"]
+[debug] [2019-12-13T14:23:35.524Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-13T14:23:35.524Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-13T14:23:35.687Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-13T14:23:35.702Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/luisito-3c484:testIamPermissions  
+
+[debug] [2019-12-13T14:23:35.917Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-13T14:23:35.918Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/luisito-3c484  
+ 
+[debug] [2019-12-13T14:23:36.134Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/luisito/Documents/luisitodesign.com'...
+[info] 
+[debug] [2019-12-13T14:23:36.135Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/luisito-3c484/webApps/-/config  
+ 
+[debug] [2019-12-13T14:23:36.503Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: www
+[info] ✔  hosting: Local server: http://localhost:5000
