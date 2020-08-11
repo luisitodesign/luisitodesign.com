@@ -40,6 +40,14 @@ body {
   background-color: #6b5eae;
 }
 
+.logrank{
+  color: #F8A01E;
+}
+
+.logrank-bg{
+  background-color: #F8A01E;
+}
+
 .brand {
   height: 30px;
   margin-top: 5px;
@@ -72,9 +80,16 @@ body {
   background-color: pink
 }
 
+.project {
+  height: 25em;
+}
+
 @media only screen and (max-width: 768px) {
   .subheader {
     text-align: left;
 
+  }
+  .project {
+    height: 25em;
   }
 }
