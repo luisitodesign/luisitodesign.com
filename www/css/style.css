@@ -4,12 +4,40 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
-.font {
+body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.luisito {
-  background-color: #71B4E3 !important;
+.bold {
+  font-weight: 700;
+}
+
+.lublue {
+  color: #63B2E2;
+}
+
+.lublue-bg {
+  background-color: #63B2E2;
+}
+
+.lublue-lt {
+  color: #8CCAEF;
+}
+
+.lublue-dk {
+  color: #409CD2;
+}
+
+.lublue-dk-bg {
+  background-color: #409CD2;
+}
+
+.hootsi {
+  color: #6b5eae;
+}
+
+.hootsi-bg {
+  background-color: #6b5eae;
 }
 
 .brand {
@@ -40,16 +68,13 @@ html {
   text-align: right;
 }
 
-
-.border{
+.border {
   background-color: pink
 }
 
+@media only screen and (max-width: 768px) {
+  .subheader {
+    text-align: left;
 
-
-@media only screen and (max-width: 768px){
-    .subheader {
-        text-align: left;
-        
-    }        
+  }
 }
