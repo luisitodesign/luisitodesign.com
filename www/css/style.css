@@ -1,34 +1,37 @@
 /* Empty. Add your own CSS if you like */
 
-html {
-  font-family: 'Montserrat', sans-serif;
+body {
+  font-family: soleil, sans-serif;
+
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
+
+
+.navi {
+  box-shadow: none !important;
 }
 
 .bold {
   font-weight: 700;
 }
 
-.lublue {
-  color: #63B2E2;
+.luisito {
+  color: #63B2E2 !important;
 }
 
-.lublue-bg {
+.luisito-bg {
   background-color: #63B2E2;
 }
 
-.lublue-lt {
+.luisito-lt {
   color: #8CCAEF;
 }
 
-.lublue-dk {
+.luisito-dk {
   color: #409CD2;
 }
 
-.lublue-dk-bg {
+.luisito-dk-bg {
   background-color: #409CD2;
 }
 
@@ -36,16 +39,53 @@ body {
   color: #6b5eae;
 }
 
+.hootsi-blk {
+  color: #1A1A1A;
+}
+
 .hootsi-bg {
   background-color: #6b5eae;
 }
 
-.logrank{
+.hootsi-bg-dk {
+  background-color: #1B182C;
+}
+
+.hootsi-bg-lt {
+  background-color: #D9D2FB;
+}
+
+.logrank {
   color: #F8A01E;
 }
 
-.logrank-bg{
+.logrank-bg {
   background-color: #F8A01E;
+}
+
+.dsa-green-bg {
+  background-color: #A1FDB5;
+}
+
+.dsa-bg-dk {
+  background-color: #800409;
+}
+
+.dtm {
+  color: #CF142B;
+}
+
+.dtm-bg {
+  background-color: #CF142B;
+}
+
+
+.vigil {
+  color: #500A80;
+}
+
+.vigil-bg {
+  background-color: #500A80;
 }
 
 .brand {
@@ -84,12 +124,25 @@ body {
   height: 25em;
 }
 
+.modal .col-12 {
+  padding: 0 !important;
+}
+
+.project-img:hover {
+  transition: transform .3s;
+  /* Animation */
+  transform: scale(1.1);
+}
+
 @media only screen and (max-width: 768px) {
   .subheader {
     text-align: left;
 
   }
+
   .project {
-    height: 25em;
+    height: 15em;
   }
+
+
 }
